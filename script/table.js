@@ -7,7 +7,7 @@ function table()
   .then(csv => {
     let master = $.csv.toObjects(csv);
     console.log(master[0]['Group'])
-  }//then
+  })//then
 
   
 }//table
