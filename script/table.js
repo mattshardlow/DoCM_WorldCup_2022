@@ -3,7 +3,7 @@ function table()
   fetch("Master.csv")
   .then(res => res.text())
   .then(csv => {
-    let master = $.csv.toObjects(csv);
+    let master = csv.toObjects(csv);
     console.log(master[0]['Group'])
   });//then
 
