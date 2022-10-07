@@ -11,6 +11,6 @@ function table()
       console.log(data);
     });
 
-    reader.readAsText("https://mattshardlow.github.io/DoCM_WorldCup_2022/Master.csv");
+    reader.readAsDataURL("https://mattshardlow.github.io/DoCM_WorldCup_2022/Master.csv");
 
 }//table
