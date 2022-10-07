@@ -1,7 +1,5 @@
 function table() 
 {
-  var csv = require('jquery-csv');
-
   fetch("Master.csv")
   .then(res => res.text())
   .then(csv => {
